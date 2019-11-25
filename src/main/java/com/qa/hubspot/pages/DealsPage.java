@@ -1,5 +1,11 @@
 package com.qa.hubspot.pages;
 
-public class DealsPage {
+import com.qa.hubspot.basepage.BasePage;
+
+public class DealsPage extends BasePage{
+	
+	public void getDeals(){
+		System.out.print("--get deals method--");
+	}
 
 }
